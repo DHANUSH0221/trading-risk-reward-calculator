@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("My Trading Assistant")
+st.title("Trading Risk Reward Calculator")
 
 price = st.number_input("Enter current price", min_value=0.0)
 sl_percent = st.number_input("Enter stop loss %", min_value=0.0)
